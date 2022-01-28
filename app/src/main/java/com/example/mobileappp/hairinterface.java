@@ -24,6 +24,7 @@ public class hairinterface extends AppCompatActivity {
         CheckBox cb2 = (CheckBox) findViewById(R.id.hairColor);
         CheckBox cb3 = (CheckBox) findViewById(R.id.hairStyling);
         CheckBox cb4 = (CheckBox) findViewById(R.id.hairTreatment);
+
     reserve.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
