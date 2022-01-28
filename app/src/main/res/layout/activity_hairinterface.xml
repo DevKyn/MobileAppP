@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background12"
+    android:orientation="vertical"
+    tools:context=".hairinterface">
+
+    <TextView
+        android:id="@+id/hairServices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="15dp"
+        android:text="Hair Services"
+        android:fontFamily="@font/font2"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/hairCut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hairServices"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/font2"
+        android:text="Hair Cutting "
+        android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/hairCutPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hairServices"
+            android:layout_alignBottom="@+id/hairCut"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/font2"
+            android:text="100 SAR"
+            android:textColor="@color/Prices"
+            android:textSize="16dp" />
+
+        <CheckBox
+            android:id="@+id/hairColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hairCut"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:text="Hair Coloring"
+            android:fontFamily="@font/font2"
+            android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/hairColorPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hairCutPrice"
+        android:layout_alignBottom="@+id/hairColor"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/font2"
+        android:text="400 SAR"
+        android:textColor="@color/Prices"
+        android:textSize="16dp" />
+        <CheckBox
+            android:id="@+id/hairStyling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hairColor"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:text="Hair Styling"
+            android:fontFamily="@font/font2"
+            android:textSize="20dp"/>
+         <TextView
+            android:id="@+id/hairStylePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hairColorPrice"
+            android:layout_alignBottom="@+id/hairStyling"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/font2"
+            android:text="250 SAR"
+            android:textColor="@color/Prices"
+            android:textSize="16dp" />
+
+        <CheckBox
+            android:id="@+id/hairTreatment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hairStyling"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Hair Treatment"
+            android:fontFamily="@font/font2"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/hairTreatmentPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hairStylePrice"
+            android:layout_alignBottom="@+id/hairTreatment"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/font2"
+            android:text="600 SAR"
+            android:textColor="@color/Prices"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/reserveHair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hairTreatment"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/font2"
+            android:background="@drawable/btnstyle"
+            android:text="Reserve" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"-->
+
+    <TextView
+        android:id="@+id/Battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/font2"
+        android:text="100%"
+        android:textColor="@color/black" />
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="369dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Name:"
+        android:fontFamily="@font/font2"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt2"
+        android:layout_alignBottom="@+id/txt2"
+        android:layout_marginLeft="36dp"
+        android:layout_toRightOf="@+id/txt2"
+        android:ems="10"
+        android:inputType="textPersonName" >
+       <requestFocus/>
+    </EditText>
+
+    <TextView
+       android:id="@+id/txt3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/txt2"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="56dp"
+       android:text="Phone:"
+       android:fontFamily="@font/font2"
+       android:textColor="@color/black"
+       android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+   <EditText
+       android:id="@+id/editNumber"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/txt3"
+       android:layout_alignBottom="@+id/txt3"
+       android:layout_marginLeft="36dp"
+       android:layout_below="@+id/editTextName"
+       android:layout_toRightOf="@+id/txt3"
+       android:ems="10"
+       android:inputType="phone" >
+   </EditText>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="106dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/editNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/btnstyle"
+        android:fontFamily="@font/font2"
+        android:text="Reserve now" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegister"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/callicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:background="#00000000"
+            app:srcCompat="@drawable/callicon" />
+        //34 minute
+
+        <ImageButton
+            android:id="@+id/mapicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/callicon"
+            android:background="#00000000"
+            android:gravity="center"
+            app:srcCompat="@drawable/mapicon">
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

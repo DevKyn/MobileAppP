@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background12"
+    android:orientation="vertical"
+    tools:context=".basket">
+
+    <TextView
+        android:id="@+id/basket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/font2"
+        android:text="Your services to be reserved: "
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/basketlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/basket"
+        android:layout_marginTop= "10dp">
+        </ListView>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/basketlist"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/datePickertxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/basket"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/font2"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Select reservation date " />
+
+        <TextView
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/datePickertxt"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/font2"
+        android:textColor="@color/Prices"
+        android:textSize="15dp"
+        android:text="select here" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Checkoutbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:text="Check out"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/font2"
+        android:background="@drawable/btnstyle"
+        />
+</RelativeLayout>

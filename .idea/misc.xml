@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Kholoud/AndroidApp/MobileAppP 3/MobileAppP/app/src/main/res/layout/activity_basket.xml" value="0.1" />
+        <entry key="..\:/Kholoud/AndroidApp/MobileAppP 3/MobileAppP/app/src/main/res/layout/activity_hairinterface.xml" value="0.14270833333333333" />
+        <entry key="..\:/Kholoud/AndroidApp/MobileAppP 3/MobileAppP/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/drawable/btnstyle.xml" value="0.12708333333333333" />
+        <entry key="app/src/main/res/drawable/hover.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/activity_basket.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_dbhelper.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_hairinterface.xml" value="0.2513586956521739" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12310030395136778" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_makeupinterface.xml" value="0.2513586956521739" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/hairinterface.xml" value="0.2513586956521739" />
+        <entry key="app/src/main/res/layout/main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/makeupinterface.xml" value="0.2513586956521739" />
+        <entry key="app/src/main/res/layout/register.xml" value="0.16928580680912214" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.11041666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

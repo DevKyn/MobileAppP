@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background12"
+    android:orientation="vertical"
+    tools:context=".makeupinterface">
+
+    <TextView
+        android:id="@+id/makeupServices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="15dp"
+        android:text="MakeUp Services"
+        android:fontFamily="@font/font2"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/naturalMakeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/makeupServices"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="@font/font2"
+        android:text="Natural Makeup Look "
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/naturalMakeupPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/makeupServices"
+        android:layout_alignBottom="@+id/naturalMakeup"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/font2"
+        android:text="150 SAR"
+        android:textColor="@color/Prices"
+        android:textSize="16dp" />
+    <CheckBox
+        android:id="@+id/weddingMakeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/naturalMakeup"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:text="Wedding Makeup Look"
+        android:fontFamily="@font/font2"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/weddingMakeupPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/naturalMakeupPrice"
+        android:layout_alignBottom="@+id/weddingMakeup"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/font2"
+        android:text="200 SAR"
+        android:textSize="16dp"
+        android:textColor="@color/Prices" />
+
+    <CheckBox
+        android:id="@+id/bridalMakeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weddingMakeup"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:text="Bridal Makeup Look"
+        android:fontFamily="@font/font2"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/bridalMakeupPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weddingMakeupPrice"
+        android:layout_alignBottom="@+id/bridalMakeup"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/font2"
+        android:text="500 SAR"
+        android:textSize="16dp"
+        android:textColor="@color/Prices" />
+
+    <CheckBox
+        android:id="@+id/dramaticMakeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bridalMakeup"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Dramatic Makeup Look"
+        android:fontFamily="@font/font2"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/dramaticMakeupPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bridalMakeupPrice"
+        android:layout_alignBottom="@+id/dramaticMakeup"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/font2"
+        android:text="350 SAR"
+        android:textSize="16dp"
+        android:textColor="@color/Prices"/>
+
+    <Button
+        android:id="@+id/reserveMakeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dramaticMakeup"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/font2"
+        android:background="@drawable/btnstyle"
+        android:text="Reserve" />
+
+
+
+</RelativeLayout>
